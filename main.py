@@ -81,9 +81,9 @@ def initialize_logger():
         f.write(timestamp_header)
 
 if __name__ == "__main__":
-    print("==================================================")
+   
     print("      ADVANCED EDUCATIONAL KEYLOGGER LAB          ")
-    print("==================================================")
+    
     print(f"[*] Target Log File: {os.path.abspath(LOG_FILE)}")
     print("[*] Status: Running... (Press 'ESC' to terminate)")
     
